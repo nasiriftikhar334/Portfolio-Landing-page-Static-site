@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Mr. Silent</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  
+  <section class="navSection">
+    <nav>
+    <ul class="navtop" id="dropdownclick">
+      <li><a href="#skillSection">Home</a></li>
+      <li><a href="#aboutSection">About</a></li>
+      <li><a href="#themeSection">Theme</a></li>
+      <li><a href="#projectSection">Projects</a></li>
+      <li class="navright"><a href="#youtube">Youtube</a></li>
+      <li class="navright"><a href="#blog">Blog</a></li>
+      <li class="dropdownicon">
+        <a href="javascript:void(0)" onclick="dropdownMenu()">&#9776;</a>
+      </li>
+    </ul>
+  </nav>
+  </section>
+
+    
+  <section class="aboutSection">
+      
+    <div class="about">
+      <div class="column">
+        <img class="aboutImg" src="profile image.jpeg" alt="Nasir Iftikhhar" height="400px">
+      </div>
+      <h1>I'm a Full Stack Developer</h1>
+      <p class="aboutDesc column">I'm a Full Stack Developer with over 2 years of experience with an extensive experience of Website
+        Development with powerful programming languages including Python, JavaScript, React JS and Django
+        framework. Providing Solutions with Creative Ideas and Professional Skills. 
+      </p>
+    </div>
+    <div class="clearfix"></div>
+  </section>
+    
+    
+  <section class="skillSection">
+    <div class="circle">
+      <button href="javascript:void(0)" onclick="skillsBtn()">Wanna See My Skills</button>
+      <div id="circle" style="display: none">
+        <span href="#" style="--i:1"><p>Problem Solving</p></span>
+        <span href="#" style="--i:2"><p>Web Development</p></span>
+        <span href="#" style="--i:5"><p>Hacking Attacks</p></span>
+        <span href="#" style="--i:4"><p>Hacking Defences</p></span>
+        <span href="#" style="--i:3"><p>Networking</p></span>
+        <span href="#" style="--i:6"><p>Team Work</p></span>
+      </div>
+    </div>
+    </section>
+    
+      
+    <section class="themeSection">
+      <h1>Themes</h1>
+    <div class="theme">
+       <button href="javascript:void(0)" onclick="darkMode()">Dark Mode</button>
+       <button href="javascript:void(0)" onclick="hackingMode()">Hacking Mode</button>
+       <button href="javascript:void(0)" onclick="normalMode()">Normal Mode</button>     
+    </div>
+  </section>
+  
+  <section class="projectSection">
+      <h1>Project</h1>
+    <div class="project">
+      <span class="icon material-symbols-outlined">calculate</span>
+      <div class="detail">
+        <p>Calculator</p>
+        <a href="#">Click to use</a>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <div class="project">
+      <span class="icon material-symbols-outlined">event_upcoming</span>
+      <div class="detail">
+        <p>Upcoming</p>
+        <a href="#">Click to use</a>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </section>
+  
+  <section class="footerSection">
+    <div class="column">
+        <h1>Company</h1>
+        <ul>
+            <li>About</li>
+            <li>Courses</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <div class="column">
+        <h1>Company</h1>
+        <ul>
+            <li>About</li>
+            <li>Courses</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+  </section>
+    
+    
+
+  <script src="dynamic.js"></script>    
+    
+
+</body>
+</html>
+    
